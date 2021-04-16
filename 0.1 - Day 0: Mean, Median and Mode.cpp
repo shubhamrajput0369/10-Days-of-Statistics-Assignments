@@ -35,3 +35,6 @@ float Median(vector<int>X, int N)
 return median;
 }
 
+int Mode(vector<int>X, int N)
+{
+    int count=0;
