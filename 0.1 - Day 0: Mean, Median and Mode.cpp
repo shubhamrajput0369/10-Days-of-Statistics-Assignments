@@ -16,3 +16,9 @@ float Mean(vector<int>X,int N)
     {
         mean=mean+X[i];
     }
+    return mean/N;
+}
+
+float Median(vector<int>X, int N)
+{ int mid= (N/2)-1;
+    float median=0;
