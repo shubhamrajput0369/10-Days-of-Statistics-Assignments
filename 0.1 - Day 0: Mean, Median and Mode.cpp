@@ -71,3 +71,7 @@ int main() {
     int N,data;
     cin>>N;
     for(auto i =0; i<N; i++)
+    {
+        cin>>data;
+        X.push_back(data);
+    }
