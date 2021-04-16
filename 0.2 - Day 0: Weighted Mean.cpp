@@ -62,3 +62,4 @@ int main()
         weights[i] = weights_item;
     }
 
+    weightedMean(vals, weights, n);
