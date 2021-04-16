@@ -36,3 +36,8 @@ int main()
 
     int n = stoi(ltrim(rtrim(n_temp)));
 
+    string vals_temp_temp;
+    getline(cin, vals_temp_temp);
+
+    vector<string> vals_temp = split(rtrim(vals_temp_temp));
+
