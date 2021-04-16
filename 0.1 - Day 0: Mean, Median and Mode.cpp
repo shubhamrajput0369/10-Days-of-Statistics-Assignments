@@ -78,3 +78,6 @@ int main() {
     cout<<fixed<<setprecision(1)<<Mean(X,N)<<endl; 
     cout<<fixed<<setprecision(1)<<Median(X,N)<<endl;
     cout<<Mode(X,N);
+   
+    return 0;
+}
