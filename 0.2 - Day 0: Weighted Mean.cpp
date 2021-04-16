@@ -41,3 +41,12 @@ int main()
 
     vector<string> vals_temp = split(rtrim(vals_temp_temp));
 
+    vector<int> vals(n);
+
+    for (int i = 0; i < n; i++) {
+        int vals_item = stoi(vals_temp[i]);
+
+        vals[i] = vals_item;
+    }
+
+    string weights_temp_temp;
