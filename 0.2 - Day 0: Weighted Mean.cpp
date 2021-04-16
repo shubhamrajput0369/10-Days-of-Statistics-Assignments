@@ -25,3 +25,14 @@ void weightedMean(vector<int> X, vector<int> W, int a) {
         product=X[i]*W[i];
         mult_sum=mult_sum+product;
     }
+    float res = float(mult_sum)/weight_sum;
+    cout<<fixed<<setprecision(1)<<res;
+}
+
+int main()
+{
+    string n_temp;
+    getline(cin, n_temp);
+
+    int n = stoi(ltrim(rtrim(n_temp)));
+
