@@ -50,3 +50,15 @@ int main()
     }
 
     string weights_temp_temp;
+    getline(cin, weights_temp_temp);
+
+    vector<string> weights_temp = split(rtrim(weights_temp_temp));
+
+    vector<int> weights(n);
+
+    for (int i = 0; i < n; i++) {
+        int weights_item = stoi(weights_temp[i]);
+
+        weights[i] = weights_item;
+    }
+
