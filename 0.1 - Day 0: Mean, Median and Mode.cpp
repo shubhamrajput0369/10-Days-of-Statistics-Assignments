@@ -22,3 +22,6 @@ float Mean(vector<int>X,int N)
 float Median(vector<int>X, int N)
 { int mid= (N/2)-1;
     float median=0;
+    sort(X.begin(), X.end());
+    //if n is even
+   if(N%2==0)
