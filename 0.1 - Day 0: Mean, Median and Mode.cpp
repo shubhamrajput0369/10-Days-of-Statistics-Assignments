@@ -25,3 +25,13 @@ float Median(vector<int>X, int N)
     sort(X.begin(), X.end());
     //if n is even
    if(N%2==0)
+   {
+   median= ( X[mid] + X[mid+1] )/2.0;
+   }
+   //if n is odd
+   else if(N%2!=0)
+    median= X[mid];
+
+return median;
+}
+
