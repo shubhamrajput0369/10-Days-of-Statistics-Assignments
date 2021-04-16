@@ -38,3 +38,13 @@ return median;
 int Mode(vector<int>X, int N)
 {
     int count=0;
+    int freq=0;
+    int finalnumber=0;
+    int num;
+    sort(X.begin(), X.end());
+    
+    num=X[0];
+
+   for(auto i=0; i<N; i++)
+   {
+       if(num==X[i])
