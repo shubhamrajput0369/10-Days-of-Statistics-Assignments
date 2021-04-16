@@ -75,3 +75,6 @@ int main() {
         cin>>data;
         X.push_back(data);
     }
+    cout<<fixed<<setprecision(1)<<Mean(X,N)<<endl; 
+    cout<<fixed<<setprecision(1)<<Median(X,N)<<endl;
+    cout<<Mode(X,N);
