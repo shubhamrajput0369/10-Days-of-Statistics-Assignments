@@ -48,3 +48,26 @@ int Mode(vector<int>X, int N)
    for(auto i=0; i<N; i++)
    {
        if(num==X[i])
+        { count++;
+            if(freq<count)
+            {
+                finalnumber=X[i];
+                freq=count;
+            }
+        }
+        else
+        {
+            count=0;
+            num=X[i];
+            count++;
+        }
+   }
+
+    return finalnumber;
+}
+
+int main() {
+    vector<int>X;
+    int N,data;
+    cin>>N;
+    for(auto i =0; i<N; i++)
